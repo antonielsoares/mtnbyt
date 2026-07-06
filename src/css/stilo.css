@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Darumadrop One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: rgb(243, 245, 245);
+}
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 64px;
+    display: inline-block;
+    padding: 10px 0;
+}
+.txt{
+   display: flex;
+   float: right;
+   margin-right: 60px;
+}
+.txt_1{
+    background-color: rgb(44, 56, 161);
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+    width: 130px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.txt_1:hover{
+    background-color: rgb(19, 59, 235);
+    transition: 0.4s;
+    font-size: 18px;
+}
+.txt_2{
+    margin-left: 20px;
+    padding: 8px 0;
+    border: 2px solid rgb(124, 123, 123);
+    border-radius: 20px;
+    width: 190px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.txt_2:hover{
+    border: 2px solid rgb(192, 190, 190);
+}
+/************** AQUI COMEÇA A NAVEGAÇÃO ********************/
+/************* NAVEGAÇÃO MOBILE ***************************/
+.navegacao-android{
+    display: none;
+}
+.btn-1{
+    width: 43px;
+    height: 43px;
+    background-color: rgb(60, 255, 0);
+    background-image: url(../img/menu.png);
+    float: right;
+    margin-right: 20px;
+    margin-top: -70px;
+    border: none;
+}
+.navegacao-android ul{
+    width: 100%;
+    opacity: 0;
+    transition: 0.8s;
+}
+.navegacao-android:hover ul{
+    opacity: 1;
+    display: block;
+    background-color: orange;
+}
+.navegacao-android ul li{
+    border-bottom: 1px solid black;
+    width: 355px;
+    text-align: end;
+    padding: 10px 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.navegacao-android a{
+    color: aliceblue;
+}
+/*********************************************************/
+.navegacao{
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.logo{
+    width: 240px;
+    height: 100px;
+    background-image: url(../img/logo_one.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navegacao nav{    
+    width: 566px;
+    height: 100px;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+}
+.navegacao nav ul{
+    color: red;
+    
+}
+.navegacao ul li{
+    list-style: none;
+    float: right;
+    
+}
+.navegacao a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.navegacao a:hover{
+    transition: 0.4s;
+    font-size: 26px;
+}
+/************** AQUI COMEÇA O BG ********************/
+
+.bg{
+    background-image: url(../img/bg_01.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 433px;
+}
