@@ -24,12 +24,8 @@
     /************* NAVEGAÇÃO MOBILE ***************************/
     .navegacao-android{
         display: block;
-        z-index: 1;
     }
     /************** AQUI COMEÇA O BG ********************/
 
-    .bg{
-        z-index: 0;
-        margin-top: -199px;
-    }
+    
 }

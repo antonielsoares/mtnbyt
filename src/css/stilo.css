@@ -67,27 +67,31 @@ header{
     margin-top: -70px;
     border: none;
 }
+.navegacao-android nav{
+    position: absolute;
+}
 .navegacao-android ul{
-    width: 100%;
+    width: 266px;
+    margin: -15px 86px;
     opacity: 0;
     transition: 0.8s;
 }
 .navegacao-android:hover ul{
     opacity: 1;
     display: block;
-    background-color: orange;
 }
 .navegacao-android ul li{
     border-bottom: 1px solid black;
-    width: 355px;
+    background-color: orange;
     text-align: end;
     padding: 10px 20px;
-    text-decoration: none;
     list-style: none;
 }
 .navegacao-android a{
     color: aliceblue;
+    text-decoration: none;
 }
+
 /*********************************************************/
 .navegacao{
     margin: 0 40px;
@@ -138,4 +142,5 @@ header{
     background-position: center;
     width: 100%;
     height: 433px;
+    z-index: 1;
 }
