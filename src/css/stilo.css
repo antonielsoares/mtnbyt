@@ -69,6 +69,7 @@ header{
 }
 .navegacao-android nav{
     position: absolute;
+    width: 100%;
 }
 .navegacao-android ul{
     width: 266px;
