@@ -22,10 +22,26 @@
     /************** AQUI COMEÇA A NAVEGAÇÃO ********************/
     /************* NAVEGAÇÃO MOBILE ***************************/
     .navegacao-android{
-        display: block;
-       
+        display: block;       
     }
     /************** AQUI COMEÇA O BG ********************/
-
+    .bg{
+        margin: 0 auto;
+        width: 90%;
+        height: 433px;
+        display: flexbox;
+    }
+    /************** SESSÃO 01 ********************/
+    .container div{
+        display: flex;
+        flex-direction: column;
+    }
+    .container img{
+        margin: 10px auto;
+        width: 90%;
+        height: 403px;
+        border: 2px solid black;
+        border-radius: 3%;
+    }
    
 }
