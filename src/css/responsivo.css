@@ -26,15 +26,42 @@
     }
     /************** AQUI COMEÇA O BG ********************/
     .bg{
+        background-position-x: -48px;
+        background-position-y: -16px;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         height: 433px;
         display: flexbox;
     }
     /************** SESSÃO 01 ********************/
+    .container{
+        margin: 0 14px;
+        width: 93%;
+        margin-top: -88px;
+    }
+    .container button{
+        margin: 20px 0;
+        width: 100%;
+        padding: 13px 0;
+        border: 0;
+    }
+    .container h1{
+        width: 336px;
+        font-size: 25px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .sessao-01 .container p{
+        width: 336px;
+        margin: 10px auto;
+        text-align: justify;
+    }
     .container div{
         display: flex;
         flex-direction: column;
+    }
+    .container-filho .container-warp{
+        width: 293px;
     }
     .container img{
         margin: 10px auto;

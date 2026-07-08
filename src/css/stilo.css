@@ -21,9 +21,9 @@ header{
     padding: 14px 0;
 }
 .txt{
-   display: flex;
-   float: right;
-   margin-right: 60px;
+    display: flex;
+    float: right;
+    margin-right: 60px;
 }
 .txt_1{
     background-color: rgb(44, 56, 161);
@@ -141,30 +141,57 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-position-y: -75px;
     width: 100%;
     height: 433px;
 }
 /************** SESSÃO 01  ********************/
+.sessao-01{
+    background-color: rgb(4, 12, 117);
+    
+}
 .container{
-    margin: 0 auto;
+    margin: 0 40px;
     width: 90%;
-    align-items: center;
+}
+.container button{
+    margin: 20px 0;
+    background-color: rgb(255, 0, 0);
+    width: 189px;
+    padding: 13px 0;
+    border: 0;
+}
+
+.container button a{
+    color: white;
+    text-decoration: none;
+}
+.container-filho{
+    display: flex;
+    flex-direction: row;
+    width: 65px;   
+}
+.container-filho .container-warp{
+    width: 983px;
 }
 .container h1{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
+    color: white;
+}
+.sessao-01 .container p{
+    color: white;
+
 }
 .container div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: auto;
 }
 .container img{
-    margin: 10px auto;
-    width: 373px;
-    height: 503px;      
+    float: right;
+    margin: 10px 0;
+    width: 573px;
+    height: 603px;
+    border: 1px solid rgb(152, 155, 192);      
 }
