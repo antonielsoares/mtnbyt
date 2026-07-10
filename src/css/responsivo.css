@@ -28,14 +28,12 @@
     .bg{
         background-position: center;
         background-size: cover;
-        /*
-        background-position-x: -150px;
-        background-position-y: -16px;*/
+        background-position-x: -86px;
+        background-position-y: -46px;
         margin: 0 auto;
-        width: 100%;
-       background-color: brown;
-        
+        height: 297px;
     }
+    
     /************** SESSÃO 01 ********************/
     .container{
         margin: 0 14px;
@@ -73,5 +71,24 @@
         border: 2px solid black;
         border-radius: 3%;
     }
-   
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    /**************************** FOOTER ****************************/
+    p{
+        margin: 0 auto;
+        font-size: 14px;
+        box-shadow: 2px 2px 8px gray;
+    }
 }
