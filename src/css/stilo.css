@@ -187,10 +187,35 @@ header{
     color: white;
 
 }
+.sobre{
+    margin: 70px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.sobre .sega{
+    margin: 30px 40px 0 0;
+    width: 22px;
+    height: auto;
+    background-color: blue;
+}
+.sobre h1{
+    color: red;
+    width: 266px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.sobre p{
+    font-size: 15px;
+    width: 246px;
+    margin: 0;
+}
+
 .container div{
     width: 100%;
     height: auto;
 }
+
 .container img{
     float: right;
     margin: 10px 0;
