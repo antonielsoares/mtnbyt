@@ -220,9 +220,13 @@ header{
     float: right;
     margin: 10px 0;
     width: 573px;
-    height: 603px;
+    height: 683px;
     border: 1px solid rgb(152, 155, 192);
     box-shadow: 8px 8px 11px gray;  
+}
+.sessao-01 .duvidas{
+    background-color: #69a4d3;
+    width: 100%;
 }
 /*************************** FORMULARIO ***********************/
 .form{
