@@ -53,24 +53,23 @@
         text-align: center;
     }
     .sessao-01 .container p{
-        width: 336px;
+        width: 306px;
         margin: 10px auto;
         text-align: justify;
     }
 
     .sobre{
-        margin: 70px 0;
-        display: flex;
-        flex-direction: column;
+        display: block;
+        width: 100%;
     }
     
     .sobre .sega{
         display: none;
     }
     
-    .sobre-wrp{
+    .sobre .sobre-wrp{
         display: block;
-        width: 22px;
+        width: 100%;
     }
     .sobre .sobre-wrp h1{
         margin: 0 auto; 
@@ -86,7 +85,7 @@
         flex-direction: column;
     }
     .container-filho .container-warp{
-        width: 293px;
+        width: 333px;
     }
     .container img{
         margin: 10px auto;
@@ -94,6 +93,14 @@
         height: 403px;
         border: 2px solid black;
         border-radius: 3%;
+    }
+    
+/*************************** SESSÃO-02 *************************/
+    .container .quadrado{
+        width: 325px;
+    }
+    .quadrado-wrp{
+        margin-top: 70px;
     }
  
     /*************************** FORMULARIO ***********************/

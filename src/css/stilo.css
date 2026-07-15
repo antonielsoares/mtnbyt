@@ -154,7 +154,7 @@ header{
     padding-bottom: 73px;
 }
 .container{
-    margin: 0 40px;
+    margin: 0 auto;
     width: 90%;
 }
 .container button{
@@ -200,7 +200,7 @@ header{
     background-color: blue;
 }
 .sobre h1{
-    color: red;
+    color: rgb(221, 6, 6);
     width: 266px;
     margin-bottom: 10px;
     font-size: 22px;
@@ -227,6 +227,28 @@ header{
 .sessao-01 .duvidas{
     background-color: #69a4d3;
     width: 100%;
+}
+
+/*************************** SESSÃO-02 *************************/
+.container .quadrado{
+    width: 275px;
+    height: 444px;
+    color: #ffffff;
+    background-color: #046bd2;
+    border: 2px solid white;
+    border-radius: 4%;
+    margin: 30px 10px;
+    text-align: center;
+}
+.quadrado-wrp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.quadrado h1{
+    font-size: 53px;
 }
 /*************************** FORMULARIO ***********************/
 .form{
